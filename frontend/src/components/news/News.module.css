@@ -1,0 +1,14 @@
+.news{
+  background: rgb(0, 116, 248);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+  height: 30px;
+}
+.icon{
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
