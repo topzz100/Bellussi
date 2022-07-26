@@ -1,0 +1,34 @@
+.wrapper{
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+.wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.wrapper .content{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+.content p{
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.content h4{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.content span{
+  font-size: 0.8rem;
+  border-bottom: 1px solid white;
+  width: fit-content;
+}
