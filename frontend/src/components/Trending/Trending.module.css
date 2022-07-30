@@ -1,0 +1,93 @@
+.wrapper {
+  padding: 50px;
+  width: 100%;
+}
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.title h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.title span {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.see {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.see .right,
+.left,
+.all {
+  border: 1px solid lightgray;
+  margin-left: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.all {
+  font-weight: 600;
+  padding: 8px 15px;
+}
+
+.vertical {
+  margin-left: 15px;
+  color: lightgray;
+}
+
+.arrows {
+  display: flex;
+}
+
+.right,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dots {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 3px;
+}
+
+.dots span.selected {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid grey;
+  position: relative;
+  background-color: transparent;
+}
