@@ -1,5 +1,6 @@
 import Brands from '../Brands/Brands'
 import Filters from '../Filters/Filters'
+import PriceFilter from '../PriceFilter/PriceFilter'
 import styles from './CategoryMain.module.css'
 
 const CategoryMain = () => {
@@ -14,6 +15,7 @@ const CategoryMain = () => {
         <div className={styles.left}>
           <Filters/>
           <Brands/>
+          <PriceFilter/>
         </div>
         {/* right */}
         <div className={styles.right}>
