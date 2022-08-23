@@ -1,6 +1,6 @@
 .wrapper{
   width: 240px;
-
+  margin-bottom: 10px;
 }
 .imgBox{
   width: 100%;
@@ -40,7 +40,7 @@
 }
 .info h4{
   font-weight: 600;
-  font-size: 0.9;
+  font-size: 0.9rem;
 }
 .info p{
   color: grey;
