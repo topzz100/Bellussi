@@ -6,7 +6,7 @@ const PriceFilter = () => {
     <div className={styles.priceFilter}>
       <div className={styles.header}>
         <span className={styles.title}>
-          Brands
+          Price
         </span>
         <span>
           <ExpandLess/>
@@ -26,7 +26,7 @@ const PriceFilter = () => {
           </div>
         </div>
       </div>
-      
+  
     </div>
   )
 }

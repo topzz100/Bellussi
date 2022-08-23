@@ -1,5 +1,7 @@
 .priceFilter{
   margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
 }
 .header {
   display: flex;
@@ -18,4 +20,12 @@
 }
 .priceTag{
   border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 5px;
+}
+.priceTag span{
+  font-size: 0.8rem;
 }

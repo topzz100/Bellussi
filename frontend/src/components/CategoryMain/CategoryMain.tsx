@@ -1,6 +1,9 @@
+import Availability from '../Availability/Availability'
 import Brands from '../Brands/Brands'
+import ColorFilter from '../ColorFilter/ColorFilter'
 import Filters from '../Filters/Filters'
 import PriceFilter from '../PriceFilter/PriceFilter'
+import SizeFilter from '../SizeFilter/SizeFilter'
 import styles from './CategoryMain.module.css'
 
 const CategoryMain = () => {
@@ -16,6 +19,9 @@ const CategoryMain = () => {
           <Filters/>
           <Brands/>
           <PriceFilter/>
+          <SizeFilter/>
+          <ColorFilter/> 
+          <Availability/>
         </div>
         {/* right */}
         <div className={styles.right}>

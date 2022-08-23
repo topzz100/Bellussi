@@ -1,0 +1,53 @@
+.sizeFilter{
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 10px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.container span {
+  padding: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.container span:last-child {
+  grid-column: 1/3;
+}
+.sizes{
+  padding-top: 15px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto auto;
+}
+.sizes span{
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
