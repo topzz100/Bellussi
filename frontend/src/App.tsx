@@ -1,5 +1,6 @@
 import Category from "./pages/category/Category";
 import Home from "./pages/home/Home";
+import LogIn from "./pages/logIn/LogIn";
 import SignUp from "./pages/signUp/SignUp";
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
       {/* Category page */}
       {/* <Category/> */}
       {/* SignUp Page */}
-      <SignUp/>
+      {/* <SignUp/> */}
+      {/* Login page */}
+      <LogIn/>
     </div>
   );
 }
