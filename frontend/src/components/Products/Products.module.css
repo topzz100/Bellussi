@@ -1,0 +1,90 @@
+.wrapper{
+  padding: 50px;
+  width: 100%;
+}
+.top{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.options{
+  color: gray;
+  display: flex;
+  
+}
+.options h4{
+  padding-bottom: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0 15px;
+}
+.options .selected{
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+.see{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.see .right, .left, .all {
+  border: 1px solid lightgray;
+  margin-left: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.all{
+  font-weight: 600;
+  padding: 8px 15px;
+}
+.vertical{
+  margin-left: 15px;
+  color: lightgray;
+}
+.arrows{
+  display: flex;
+}
+.right, .left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.dots{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots span{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 3px;
+}
+.dots span.selected{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid grey;
+  position: relative;
+  background-color: transparent;
+}
+

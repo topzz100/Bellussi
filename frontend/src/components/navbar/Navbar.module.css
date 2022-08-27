@@ -1,0 +1,122 @@
+.navbar{
+  color: #bebbbb;
+  background-color: black;
+  width: 100%;
+  padding: 0 50px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+  display: flex;
+}
+.country{
+  display: flex;
+  align-items: center;
+}
+.country div{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.country div img{
+  object-fit: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.vertical{
+  margin: 0 20px;
+}
+
+.category span{
+  font-size: 0.8rem;
+  margin-right: 40px;
+  position: relative;
+}
+.category .select{
+  color: white;
+}
+.drop{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -20px;
+  color: white;
+}
+.center{
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 7px;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+.searchBar{
+  background-color: #363535;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 35px;
+  width: 150px;
+}
+.searchIcon{
+  color: #bebbbb;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  
+}
+.searchBar input{
+  border: none;
+  background: transparent;
+  font-size: 0.8rem;
+  color: #d8d5d5;
+  width: 100%;
+  outline: none;
+}
+.badge{
+  color: white;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #363535;
+  padding: 7px;
+}
+.badge .rightIcon{
+  color: #bebbbb;
+  font-size: 1rem;
+}
+.icons .badge span{
+  background-color: white;
+  color: black;
+
+}
+.price{
+  font-size: 0.7rem;
+}
+.profile{
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+}
+.profile div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

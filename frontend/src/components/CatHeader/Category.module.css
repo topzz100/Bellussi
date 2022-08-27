@@ -1,0 +1,58 @@
+.catHeader{
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+.catHeader h3{
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.total{
+  color: grey;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+.filterCon{
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  justify-content: center;
+  position: relative;
+}
+.filterCat{
+  position: absolute;
+  background-color: blue;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 7px;
+  font-size: 0.6rem;
+  top: -5px;
+  right: -5px;
+}
+.vertical{
+  color: lightgray;
+  margin: 0 5px;
+}
+.sort{
+  height: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  width: 120px;
+}
+.sort span{
+  font-weight: 700;
+  font-size: 0.75rem;
+}

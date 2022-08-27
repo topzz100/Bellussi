@@ -1,0 +1,17 @@
+.wrapper{
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper span{
+  margin-right: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2b2a2a;
+}
+.wrapper .sale{
+  font-weight: 700;
+  color: #c70f0f;
+}  

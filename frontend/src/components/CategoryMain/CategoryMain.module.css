@@ -1,0 +1,27 @@
+.categoryMain{
+  padding: 0 50px;
+}
+.categoryMain .filterTitle{
+ font-size: 1.2rem;
+ font-weight: 600;
+ padding: 15px 0; 
+}
+.wrapper{
+  display: flex;
+}
+.left{
+  flex: 2.5;
+}
+.leftCon{
+  width: 100%;
+}
+
+.right{
+  width: 100%;
+  flex: 9.5;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: auto auto auto auto; */
+}

@@ -1,0 +1,31 @@
+.priceFilter{
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.priceDiff {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+.priceTag{
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 5px;
+}
+.priceTag span{
+  font-size: 0.8rem;
+}

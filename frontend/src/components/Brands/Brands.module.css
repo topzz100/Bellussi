@@ -1,0 +1,71 @@
+.brands{
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.searchBox{
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon{
+  color: grey;
+  font-size: 1rem;
+}
+.searchInput{
+  border: none;
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+.formContainer{
+  margin-top: 10px;
+  height: 200px;
+  overflow-y: scroll;
+}
+.formContainer::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.formContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.formContainer::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.formContainer::-webkit-scrollbar-thumb:hover {
+  background: #111;
+}
+.formGroup{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px
+}
+.formGroup .label{
+  font-size: 0.8rem;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.label span{
+color: grey;
+}
+.formGroup input{
+}
