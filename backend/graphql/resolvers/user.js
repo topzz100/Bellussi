@@ -57,6 +57,7 @@ module.exports = {
       const res = await newUser.save()
       const token = generateToken(res._id)
       return {
+        id: res._id,
         ...res._doc,
         token
       }
