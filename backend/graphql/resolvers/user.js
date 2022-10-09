@@ -61,6 +61,21 @@ module.exports = {
         ...res._doc,
         token
       }
+    },
+    login: async(_, {email, password}) => {
+      const user = await User.findOne({ email })
+
+      if(!user){
+        throw new UserInputError('Wrong credentials')
+      }
+
+      const token = generateToken(user._id)
+      return {
+        id: user._id,
+        ...user._doc,
+        token
+      }
+      
     }
   }
 }

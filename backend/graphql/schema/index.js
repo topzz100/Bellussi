@@ -3,11 +3,12 @@ const { gql } = require('apollo-server');
 const typeDefs = gql`
 type User {
   id: ID
-  firstname: String,
+  firstname: String
   lastname: String
   email: String
   country: String
   phoneNumber: String
+  createdAt: String
   token: String
 }
 type Book {
@@ -61,12 +62,13 @@ input ProductUpdate{
 type Query {
   books: [Book]
   users: [User]
-  products: [Product]
+  getProducts: [Product]
 }
 type Mutation {
   createUser(userInput: UserInput): User
   createProduct(productInput: ProductInput): Product
   updateProduct(productInput: ProductUpdate): Product
+  login(email: String, password: String): User
 }
 `;
 module.exports = typeDefs
