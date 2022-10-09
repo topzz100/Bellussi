@@ -61,6 +61,7 @@ input ProductUpdate{
 type Query {
   books: [Book]
   users: [User]
+  products: [Product]
 }
 type Mutation {
   createUser(userInput: UserInput): User
